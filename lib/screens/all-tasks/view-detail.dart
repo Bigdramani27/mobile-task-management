@@ -64,9 +64,10 @@ class _ViewDetailState extends State<ViewDetail> {
                   return Column(
                     children: [
                       Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const CustomText(text: "Title: ", fontWeight: FontWeight.bold, size: h2),
-                          CustomText(text: data!['title'], size: h2),
+                          Expanded(child: CustomText(text: data!['title'], size: h2)),
                         ],
                       ),
                       const SizedBox(
