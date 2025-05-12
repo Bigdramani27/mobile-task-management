@@ -126,11 +126,16 @@ class _UpdateAndDeleteTasksState extends State<UpdateAndDeleteTasks> {
                             padding: const EdgeInsets.symmetric(vertical: 13.0),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                CustomText(
-                                  text: title,
-                                  size: h3,
-                                  fontWeight: FontWeight.bold,
+                                Expanded(
+                                  child: CustomText(
+                                    text: title,
+                                    size: h3,
+                                    fontWeight: FontWeight.bold,
+                                    maxLines: 2,
+                                    overflow: TextOverflow.ellipsis,
+                                  ),
                                 ),
                                 GestureDetector(
                                   onTap: () async {

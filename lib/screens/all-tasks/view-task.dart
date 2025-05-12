@@ -125,6 +125,7 @@ class _ViewTasksState extends State<ViewTasks> {
                             text: title,
                             size: h3,
                             fontWeight: FontWeight.bold,
+                           
                           ),
                           subtitle: Row(
                             children: [

@@ -91,7 +91,8 @@ class CustomText extends StatelessWidget {
   final TextAlign? textAlign;
   final TextOverflow? overflow;
   final List<Shadow>? shadow;
-  const CustomText({super.key, required this.text, this.fontWeight, this.color, this.size, this.shadow, this.textAlign, this.overflow});
+  final int? maxLines;
+  const CustomText({super.key, required this.text, this.fontWeight, this.color, this.size, this.shadow, this.textAlign, this.overflow, this.maxLines});
 
   @override
   Widget build(BuildContext context) {
@@ -100,6 +101,7 @@ class CustomText extends StatelessWidget {
       overflow: overflow,
       textAlign: textAlign,
       style: TextStyle(fontWeight: fontWeight, color: color, fontSize: size, shadows: shadow),
+      maxLines: maxLines,
     );
   }
 }
