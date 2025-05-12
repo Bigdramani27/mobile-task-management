@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "344349089584",
+    "project_id": "kowri-82619",
+    "storage_bucket": "kowri-82619.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344349089584:android:719eb9dc7952471c78f2f5",
+        "android_client_info": {
+          "package_name": "com.example.kowri"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGAK12kGbaU0Bw3nUPP8zIJOTbmndh-qQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
